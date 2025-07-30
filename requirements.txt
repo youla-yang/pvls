@@ -1,0 +1,20 @@
+# requirements.txt for PVLS project (cleaned and Colab-free)
+
+# Core packages
+numpy>=1.23
+scipy>=1.10
+tqdm>=4.65
+joblib>=1.2
+
+# PyTorch (compatible with PyG and CUDA 12.1)
+torch==2.3.0
+torchvision
+torchaudio
+
+# PennyLane (if using hybrid quantum-classical circuits)
+pennylane>=0.33
+
+# PyTorch Geometric and dependencies (use pip + extra index in README)
+torch-scatter==2.1.2
+torch-sparse==0.6.18
+torch-geometric>=2.4.0
